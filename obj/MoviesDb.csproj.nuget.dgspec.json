@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lorenzo\\Desktop\\MoviesDb\\MoviesDb.csproj": {}
+    "C:\\Users\\User\\Desktop\\MovieDb-master\\MoviesDb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lorenzo\\Desktop\\MoviesDb\\MoviesDb.csproj": {
+    "C:\\Users\\User\\Desktop\\MovieDb-master\\MoviesDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lorenzo\\Desktop\\MoviesDb\\MoviesDb.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\MovieDb-master\\MoviesDb.csproj",
         "projectName": "MoviesDb",
-        "projectPath": "C:\\Users\\Lorenzo\\Desktop\\MoviesDb\\MoviesDb.csproj",
-        "packagesPath": "C:\\Users\\Lorenzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lorenzo\\Desktop\\MoviesDb\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\MovieDb-master\\MoviesDb.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\MovieDb-master\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lorenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +49,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -57,6 +62,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
             }
           },
           "imports": [
@@ -65,7 +74,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -77,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.112\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

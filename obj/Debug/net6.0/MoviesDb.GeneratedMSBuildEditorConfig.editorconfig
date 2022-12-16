@@ -5,48 +5,49 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MoviesDb
 build_property.RootNamespace = MoviesDb
-build_property.ProjectDir = C:\Users\Lorenzo\Desktop\MoviesDb\
+build_property.ProjectDir = C:\Users\User\Desktop\MovieDb-master\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lorenzo\Desktop\MoviesDb
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\MovieDb-master
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Lorenzo/Desktop/MoviesDb/Pages/Error.cshtml]
+[C:/Users/User/Desktop/MovieDb-master/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lorenzo/Desktop/MoviesDb/Pages/Index.cshtml]
+[C:/Users/User/Desktop/MovieDb-master/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lorenzo/Desktop/MoviesDb/Pages/Movies/Create.cshtml]
+[C:/Users/User/Desktop/MovieDb-master/Pages/Movies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lorenzo/Desktop/MoviesDb/Pages/Movies/Edit.cshtml]
+[C:/Users/User/Desktop/MovieDb-master/Pages/Movies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lorenzo/Desktop/MoviesDb/Pages/Movies/Index.cshtml]
+[C:/Users/User/Desktop/MovieDb-master/Pages/Movies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lorenzo/Desktop/MoviesDb/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Desktop/MovieDb-master/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lorenzo/Desktop/MoviesDb/Pages/_ViewImports.cshtml]
+[C:/Users/User/Desktop/MovieDb-master/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lorenzo/Desktop/MoviesDb/Pages/_ViewStart.cshtml]
+[C:/Users/User/Desktop/MovieDb-master/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lorenzo/Desktop/MoviesDb/Pages/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/MovieDb-master/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bj0e09fsqr
