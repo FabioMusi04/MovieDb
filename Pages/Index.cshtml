@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">MoviesDb</h1>
+    <p>This is a web application made with ASP.NET to be shown during ITIS P. Paleocapa open-day.</p>
+    <p>This web app allows the user to save a list of movies with some informations, like title, director and genre.</p>
+    <p>Made by the student Angioletti Gabriele, Lorenzo Longhi, Musitelli Fabio and Rota Daniel.</p>
+
+    <a asp-page="/Movies/Index">
+        <div class="btn home-button rounded">
+            <h3 class="text-center">See the movies</h3>
+        </div>
+    </a>
+</div>

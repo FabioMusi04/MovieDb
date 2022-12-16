@@ -1,0 +1,60 @@
+﻿@page
+@model MoviesDb.Pages.Movies.EditModel
+@{
+    ViewData["Title"] = "Movies - edit";
+}
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+            <h1>Edit @Model.Movie.Title</h1>
+
+            <form method="post" enctype="multipart/form-data">
+                <input type="hidden" asp-for="@Model.Movie.PKMovie" />
+                <div class="form-group">
+                    <label>Title</label>
+                    <input type="text" asp-for="@Model.Movie.Title" class="form-control" />
+                    <span asp-validation-for="@Model.Movie.Title" class="text-danger" ></span>
+                </div>
+                <div class="form-group">
+                    <label>Length (minutes)</label>
+                    <input type="text" asp-for="@Model.Movie.Length" class="form-control" />
+                    <span asp-validation-for="@Model.Movie.Length" class="text-danger" ></span>
+                </div>
+                <div class="form-group">
+                    <label>Director</label>
+                    <input type="text" asp-for="@Model.Movie.Director" class="form-control" />
+                    <span asp-validation-for="@Model.Movie.Director" class="text-danger" ></span>
+                </div>
+                <div class="form-group">
+                    <label>Genre</label>
+                    <select asp-for="@Model.Movie.Genre" class="form-control">
+                        <option>Comedy</option>
+                        <option>History</option>
+                        <option>Sci-fi</option>
+                        <option>Romance</option>
+                        <option>Thriller</option>
+                        <option>Action</option>
+                        <option>Horror</option>
+                        <option>Fantasy</option>
+                        <option>Drama</option>
+                    </select>
+                    <span asp-validation-for="@Model.Movie.Genre" class="text-danger" ></span>
+                </div>
+                <!--I need to provide the image path or the will be error with the db-->
+                <input type="hidden" asp-for="@Model.Movie.LocalPath" />
+                <input type="hidden" asp-for="@Model.Movie.WebPath" />
+                <div class="form-group">
+                        <label>Movie image</label>
+                        <input type="file" value="@Model.Movie.LocalPath" name="postedFiles" asp-for="@Model.Movie.LocalPath" class="form-control" />
+                </div>
+               
+
+                <div class="text-center my-3">
+                    <input type="submit" class="btn btn-primary" value="Save" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
