@@ -13,22 +13,22 @@
             <form method="post" enctype="multipart/form-data">
                 <div class="form-group">
                     <label>Title</label>
-                    <input type="text" asp-for="@Model.Movie.Title" class="form-control" />
-                    <span asp-validation-for="@Model.Movie.Title" class="text-danger" ></span>
+                    <input type="text" asp-for="Movie.Title" class="form-control" />
+                    <span asp-validation-for="Movie.Title" class="text-danger" ></span>
                 </div>
                 <div class="form-group">
                     <label>Length (minutes)</label>
-                    <input type="text" asp-for="@Model.Movie.Length" class="form-control" />
-                    <span asp-validation-for="@Model.Movie.Length" class="text-danger" ></span>
+                    <input type="text" asp-for="Movie.Length" class="form-control" />
+                    <span asp-validation-for="Movie.Length" class="text-danger" ></span>
                 </div>
                 <div class="form-group">
                     <label>Director</label>
-                    <input type="text" asp-for="@Model.Movie.Director" class="form-control" />
-                    <span asp-validation-for="@Model.Movie.Director" class="text-danger" ></span>
+                    <input type="text" asp-for="Movie.Director" class="form-control" />
+                    <span asp-validation-for="Movie.Director" class="text-danger" ></span>
                 </div>
                 <div class="form-group">
                     <label>Genre</label>
-                    <select asp-for="@Model.Movie.Genre" class="form-control">
+                    <select asp-for="Movie.Genre" class="form-control">
                         <option>Comedy</option>
                         <option>History</option>
                         <option>Sci-fi</option>
